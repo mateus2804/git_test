@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.first-section {
+  background-color: #1F2937;
+}
+
+#logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-link {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-navbar,
+.left-navbar {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+#content-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.sign-up-first-section {
+  background-color: #3882F6;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+}
+
+.row-of-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.box-blue {
+  border: 2px solid #3882F6;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.p-second {
+  text-align: center;
+  font-size: 18px;
+}
+
+.second-section {
+  margin-bottom: 50px;
+}
+
+.third-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 125px;
+}
+
+h3 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+}
+
+.p-third {
+  font-size: 18px;
+  margin-left: 1060px;
+}
+
+.forth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.footer-blue-box {
+  border: 2px solid #3882F6;
+  background-color: #3882F6;
+  border-radius: 5px;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.footer-button {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 130px;
+  height: 32px;
+}
+
+.footer-text-1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-text-2 {
+  color: white;
+  font-size: 16px;
+  font-weight: #bdb2b2;
+}
